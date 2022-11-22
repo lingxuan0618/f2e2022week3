@@ -14,7 +14,7 @@ export default {};
 </script>
 
 <style>
-html {
+body {
   height: 100%;
   background: #181e2a;
   overflow: hidden;
