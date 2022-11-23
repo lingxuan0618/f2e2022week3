@@ -4,6 +4,15 @@
     <div id="stars2"></div>
     <div id="stars3"></div>
     <div id="title"></div>
+    <div class="progressBar text-white" style="width:100vw">
+    </div>
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="d-flex justify-content-center align-items-center">
+        <img src="../assets/img/Sine02.png" alt="Sine02" class="h-20">
+        <img src="../assets/img/Welcome.png" alt="Welcome" class="h-30">
+        <img src="../assets/img/Shine01.png" alt="Shine01" class="h-30">
+      </div>
+    </div>
   </div>
 </template>
 
