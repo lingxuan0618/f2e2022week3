@@ -20,6 +20,11 @@ const routes = [
     name: 'POExplain',
     component: () => import('../views/POExplain.vue'),
   },
+  {
+    path: '/SprintPlan',
+    name: 'SprintPlan',
+    component: () => import('../views/SprintPlan.vue'),
+  },
 ];
 
 const router = createRouter({
