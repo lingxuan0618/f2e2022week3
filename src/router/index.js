@@ -25,6 +25,11 @@ const routes = [
     name: 'SprintPlan',
     component: () => import('../views/SprintPlan.vue'),
   },
+  {
+    path: '/EndView',
+    name: 'EndView',
+    component: () => import('../views/EndView.vue'),
+  },
 ];
 
 const router = createRouter({

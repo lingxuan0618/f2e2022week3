@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column pe-16">
+  <div class="d-flex flex-column pe-16" style="overflow-y: auto;">
     <div class="d-flex pb-12">
       <div class="col-2 d-flex flex-column align-items-center">
         <img src="../assets/img/PO_head_lookrightx0.5.png" alt="PO_head_lookrigh">
@@ -40,6 +40,16 @@
           我這邊已經把剛剛討論好的點數標上去囉～你來練習把任務排到短衝待辦清單吧！
           對了，我們平常管理任務是使用 Jira這套軟體，你有時間記得先去註冊和熟悉唷～
         </h3>
+      </div>
+    </div>
+    <div class="d-flex align-items-end justify-content-end">
+      <div class="d-flex justify-content-center align-items-center">
+        <router-link to="/POExplain" class="cursor-pointer btn-main me-12">
+          &#60;
+        </router-link>
+        <router-link to="/" class="cursor-pointer btn-main">
+          沒問題，我來挑戰！
+        </router-link>
       </div>
     </div>
   </div>
